@@ -27,7 +27,7 @@ const Proj : React.FC = () => {
                     width={200}
                     height={300}
                   />,
-          link: "https://github.com/satvik-vinoth/gmail-smart-organizer",
+          link: "https://github.com/satvik-vinoth/email-organizer",
           website: "https://satvik-vinoth.github.io/email-organizer",
         },
                 
@@ -47,7 +47,7 @@ const Proj : React.FC = () => {
         },
         {
           title: "Dual authenticated smart door locks using ML",
-          description: "Developed a smart door lock system featuring dual authentication using RFID and a keypad.Implemented secure password encryption, incorporated a PIR sensor to optimize energy usage, and integrated a machine learning model to identify irregular access patterns, enhancing overall security.",
+          description: "Published in JODAC journal. Developed a smart door lock system featuring dual authentication using RFID and a keypad.Implemented secure password encryption, incorporated a PIR sensor to optimize energy usage, and integrated a machine learning model to identify irregular access patterns, enhancing overall security.",
           header: <Image
                     className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl hover:scale-110 transition-transform duration-300"
                     src="/door.png"        
