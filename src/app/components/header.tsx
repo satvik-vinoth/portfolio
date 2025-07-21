@@ -15,6 +15,7 @@ const Header: React.FC = () => {
     return (
         <>
         <div className="flex pl-8 pr-8 pt-4 fixed top-0 left-0 w-full z-50 bg-[#0A0F1A]">
+        
             <div>
                 <img src='\logo.png' className="hover:scale-110 transition w-18 "></img>
             </div>

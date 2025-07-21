@@ -20,26 +20,31 @@ const Cert : React.FC = () => {
         },
         {
             number:"03",
+            image: "/angular.jpg",
+            title: "Learning Angular",
+        },
+        {
+            number:"04",
             image: "/Defy 3rd Place Winner.jpg",
             title: "Defy Hackathon 3rd Place Winner",
         },
         {
-            number:"04",
+            number:"05",
             image: "/sql.png",
             title: "SQL for Data Science",
         },
         {
-            number:"05",
+            number:"06",
             image: "/conser.png",
             title: "Conservation Economics",
         },
         {
-            number:"06",
+            number:"07",
             image: "/wild.png",
             title: "Wild Life Ecology",
         },
         {
-            number:"07",
+            number:"08",
             image: "/privacy.png",
             title: "Privacy and Security in Online Social Media",
         },
