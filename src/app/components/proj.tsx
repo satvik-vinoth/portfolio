@@ -16,19 +16,22 @@ const Proj : React.FC = () => {
                   />,
           link: "https://github.com/satvik-vinoth/nocode",
           website: "https://nocode-blue.vercel.app",
-        },        
+        },
         {
-          title: "Traffic sign recognition",
-          description: "Developed a traffic sign recognition system using Few-Shot Learning with Prototypical Networks.",
+          title: "Smart Email Organizer",
+          description: "Built a Gmail activity insights dashboard using Angular and Google APIs to analyze response times, contacts, and email categories.",
           header: <Image
                     className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl hover:scale-110 transition-transform duration-300"
-                    src="/traffic.jpg"        
-                    alt="Logo"
+                    src="/email.jpg"        
+                    alt="Smart Email Organizer"
                     width={200}
                     height={300}
-                    />,
-          link:"https://github.com/satvik-vinoth/traffic-sign-recognition-using-fsl"
+                  />,
+          link: "https://github.com/satvik-vinoth/gmail-smart-organizer",
+          website: "https://satvik-vinoth.github.io/email-organizer",
         },
+                
+
         {
           title: "Stock Price Prediction",
           description: "Stock price prediction website that uses machine learning (ML) models such as Transformer, GRU, and LSTM to forecast future stock prices",
@@ -55,17 +58,18 @@ const Proj : React.FC = () => {
           link:"https://jodac.org/dual-authenticated-smart-door-locks-using-machine-learning-technique/"
         },
         {
-          title: "Emotion Recogniton Website",
-          description: "Multi-Modal Emotion Recognition from Video Using Audio and Visual Fusion using LSTM and CNN.",
+          title: "Traffic sign recognition",
+          description: "Developed a traffic sign recognition system using Few-Shot Learning with Prototypical Networks.",
           header: <Image
                     className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl hover:scale-110 transition-transform duration-300"
-                    src="/visual.jpg"        
+                    src="/traffic.jpg"        
                     alt="Logo"
                     width={200}
                     height={300}
                     />,
-          link:"https://github.com/satvik-vinoth/Emotion-Recognition-website",
+          link:"https://github.com/satvik-vinoth/traffic-sign-recognition-using-fsl"
         },
+        
         {
           title: "Parkinson's Disease Classification with CNN",
           description: "Designed a deep learning model leveraging Convolutional Neural Networks (CNN) for MRI analysis.",
@@ -78,6 +82,18 @@ const Proj : React.FC = () => {
                     />,
           link:"https://github.com/satvik-vinoth/parkinsons-disease-classification",
           
+        },
+        {
+          title: "Emotion Recogniton Website",
+          description: "Multi-Modal Emotion Recognition from Video Using Audio and Visual Fusion using LSTM and CNN.",
+          header: <Image
+                    className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl hover:scale-110 transition-transform duration-300"
+                    src="/visual.jpg"        
+                    alt="Logo"
+                    width={200}
+                    height={300}
+                    />,
+          link:"https://github.com/satvik-vinoth/Emotion-Recognition-website",
         },
       ];
 
